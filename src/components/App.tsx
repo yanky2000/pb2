@@ -19,3 +19,4 @@ class App extends React.PureComponent<IAppProps, IAppState> {
 }
 
 export default App;
+
