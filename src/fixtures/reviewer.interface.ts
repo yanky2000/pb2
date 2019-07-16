@@ -10,7 +10,7 @@ export interface IUser {
     lastName?: string;
     age?: number;
     // birth date
-    sex: ISex,
+    gender: Igender,
     location: ILocation,
     contactInfo: IContactInfo,
     registrationDate: string;
@@ -36,4 +36,4 @@ export interface ILocation {
 
 type IReviewerRating = string;
 
-type ISex = 'male' | 'female'
+type Igender = 'male' | 'female'

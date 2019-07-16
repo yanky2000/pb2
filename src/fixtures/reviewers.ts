@@ -6,7 +6,7 @@ export const Reviewer1: IReviewer = {
     firstName: 'Ivan',
     lastName: 'Ogorodnikov',
     age: 27,
-    sex: 'male',
+    gender: 'male',
     location: {
         city: 'Moscow'
     },
@@ -22,7 +22,7 @@ export const Reviewer2: IReviewer = {
     firstName: 'Anna',
     lastName: 'Salnikova',
     age: 34,
-    sex: 'female',
+    gender: 'female',
     location: {
         city: 'Moscow'
     },

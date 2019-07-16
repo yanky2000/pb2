@@ -14,18 +14,19 @@ export const ReviewerProfile: React.FunctionComponent<IReviewerProps> = props =>
     location: {city},
     nickname,
     registrationDate,
-    sex,
+    gender,
     userId
   } = props.reviewer;
   return (
     <div className="container">
       <h1>My Profile</h1>
-      <img src={imageUrl} alt="" srcset=""/>
+      <img src={imageUrl}/>
       <h3>{nickname}</h3>
       <div className="">
         <p>First Name: {firstName}</p>
         <p>Last Name: {lastName}</p>
-        <p>{sex}</p>
+        <p>gender: {gender}</p>
+        <p>Registration date:{registrationDate}</p>
       </div>
       <div className="contactInfo">
           <p>Email: {contactInfo.email}</p>
