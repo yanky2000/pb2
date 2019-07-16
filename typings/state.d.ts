@@ -6,3 +6,4 @@ declare interface IVehicle {
     readonly IsWorking: boolean;
     readonly Type: Vehicles;
 }
+

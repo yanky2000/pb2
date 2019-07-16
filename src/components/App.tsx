@@ -1,6 +1,8 @@
 import React from 'react';
 
 import '../styles/index.css';
+import { ReviewerProfile } from './UserProfile';
+import { Reviewer2 } from '../fixtures/reviewers';
 
 export interface IAppProps {}
 
@@ -13,6 +15,7 @@ class App extends React.PureComponent<IAppProps, IAppState> {
 		return (
 			<div>
 				<h1>Hello World!</h1>
+				<ReviewerProfile reviewer={Reviewer2} />
 			</div>
 		);
 	}
